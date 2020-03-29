@@ -1,0 +1,13 @@
+body{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: left;
+    color: darkblue;
+    font-size: 100px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+    font-size: 30px;
+}
