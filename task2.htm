@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            
+            table{border: 1px solid black;
+            background:rgb(rgb(112, 111, 111))}
+            tr:nth-child(1){
+                background-color: darkgray;}
+            th {padding-right: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <th colspan="2" style="text-align: right;">
+                        The World of Fruit
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2" style="text-align: right;">
+                        Fruit Survey
+                    </th>
+                </tr>
+                <tr>
+                    <th style="text-align: right;">
+                        <label for ="name">Name</label>
+                    </th>
+                    <td>
+                        <input type="text" name="name" maxlength="50" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align: right;">
+                
+                        <label for ="address">Address</label>
+                    </th>
+                    <td>
+                        <input type="text" name="address" maxlength="200" size="100">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align: right;">
+                        <label for ="email">Email</label>
+                    </th>
+                    <td>
+                        <input type="text" name="email" maxlength="80" size="100">
+                    </td>
+                </tr>
+                <section class="fruits">
+                    <tr>
+                        <th rowspan="4" style="text-align: right;">How many pieces of fruits do you eat per day?</th>
+                        <th style="text-align: left;">
+                            <input id="0" name="fruits" type="radio" value="0">
+                            <label for="0">0</label>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;">
+                            <input id="1" name="fruits" type="radio" value="1">
+                            <label for="1">1</label>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;">
+                            <input id="2" name="fruits" type="radio" value="2">
+                            <label for="2">2</label>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;">
+                            <input id="More than 2" name="fruits" type="radio" value="More than 2">
+                            <label for="More than 2">More than 2</label>
+                        </th>
+                    </tr>
+                </section>
+                <section class="favfruit">
+                    <tr>
+                        <th style="text-align: right;">
+                            <label for="fruit">My favorite fruit</label>
+                        </th>
+                        <th style="text-align: left;">
+                            <select name="fruit" id="fruit">
+                                <option value="apple">Apple</option>
+                                <option value="banana">Banana</option>
+                                <option value="plum">Plum</option>
+                                <option value="pomegranate">pomegranate</option>
+                            </select>
+                        </th>
+                    </tr>
+                </section>
+                <section class="brochure">
+                    <tr>
+                        <th style="text-align: right;">
+                            <label for="brochure">Would you like a brochure</label>
+                        </th>
+                        <th style="text-align: left;">
+                            <input name="brochure" id="brochure" type="checkbox" value="brochure">
+                        </th>
+                    </tr>
+                </section>
+                <section class="submission">
+                    <tr>
+                        <th colspan="2" style="text-align: center;">
+                            <input type="submit" value="Submit">
+                        </th>
+                    </tr>
+                </section>
+            </table>
+        </form>
+    </body>
+</html>
